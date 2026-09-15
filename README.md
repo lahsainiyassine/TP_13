@@ -22,6 +22,9 @@ Données Sensibles : Utilisation du mot-clé transient sur l'attribut password p
 
 Flux d'Objets : Emploi de ObjectOutputStream.writeObject() et ObjectInputStream.readObject() dans un bloc try-with-resources.
 
+
+https://github.com/user-attachments/assets/fead80ae-a1cf-46a6-bf06-e626d59602a6
+
 Exercice 2 — Sérialisation Manuelle Avancée (Externalizable)
 Contrôle Fin du Flux : Implémentation explicite des méthodes writeExternal(ObjectOutput out) et readExternal(ObjectInput in) pour définir la structure exacte des octets écrits.
 
@@ -30,3 +33,6 @@ Constructeur par défaut : Présence impérative d'un constructeur public sans a
 Versionnage Applicatif : Écriture d'un entier d'en-tête (FORMAT_VERSION) permettant de garantir la compatibilité ascendante ou de détecter des divergences de version.
 
 Champs Dérivés : Omission volontaire de l'attribut length lors de l'écriture et recalcul dynamique à la volée après lecture du champ message.
+
+https://github.com/user-attachments/assets/e52433a7-8755-4b4a-af22-f89e203d3662
+
